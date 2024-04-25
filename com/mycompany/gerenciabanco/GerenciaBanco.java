@@ -12,7 +12,7 @@ public class GerenciaBanco {
         Scanner scanner = new Scanner(System.in);
         ContaBancaria conta = new ContaBancaria();
         
-        System.out.println("Bem-VIndo ao banco !");
+        System.out.println("Bem-Vindo ao banco !");
         System.out.print("Digite seu nome ");
         String nome = scanner.nextLine();
         System.out.print("digite seu sobrenome ");
@@ -36,7 +36,7 @@ public class GerenciaBanco {
           
            switch(opcao){
                case 1:
-                   System.out.println("\nSeu Saldo atual é R$ "+ conta.getSaldo());
+                   System.out.println("\nSeu Saldo atual é R$: "+ conta.getSaldo());
                    break;
                case 2:
                    System.out.print("\nDigire o valor do seu deposito: ");
